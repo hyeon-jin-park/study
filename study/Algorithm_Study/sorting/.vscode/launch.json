@@ -2,14 +2,38 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "C++ Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "build",
+      "serverLaunchTimeout": 10000,
+      "filterStderr": true,
+      "filterStdout": true
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/hhjjp/OneDrive/Desktop/visual/테트리스",
-      "program": "c:/Users/hhjjp/OneDrive/Desktop/visual/테트리스/build/Debug/outDebug",
+      "cwd": "c:/Users/hhjjp/OneDrive/Desktop/study/study/Algorithm_Study/sorting",
+      "program": "c:/Users/hhjjp/OneDrive/Desktop/study/study/Algorithm_Study/sorting/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
