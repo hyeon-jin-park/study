@@ -32,8 +32,19 @@ class linked_list{
         }
     }
 
-    void add_front(int element){
+    void add_front(int ele){  //노드 앞에 값을 추가가
+        node* new_node = new node(ele); //노드 포인터를 생성
+        new_node->next = head;  //새로 추가하는 노드 포인터 next를 head가 가리키는 값을 가리키게 함 
+        head = new_node;  //새 노드가 가장 앞으로 오면 그 값을 head로 연결결
+    }
 
+    void add_back(int ele){
+        node* new_node = new node(ele);
+        tail->next = new_node;
+        
+
+
+        
     }
 };
 
