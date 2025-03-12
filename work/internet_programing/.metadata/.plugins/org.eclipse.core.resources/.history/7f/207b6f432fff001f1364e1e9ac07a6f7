@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>home.html</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; }
+
+        .header {
+            background-color: silver;
+            color: black;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header_name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .login_box {
+            list-style: none;
+            display: flex;           
+        }
+
+        .login_box li {
+            margin-left: 20px;
+        }
+
+        .login_box a {
+        	display: inline-block;        	
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .login_box a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header_name">게시판 구현중</div>
+        <ul class="login_box">
+            <li><a href="#">로그인</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
