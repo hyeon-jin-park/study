@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.board {
+	background-color: white;
+	color: black;
+	padding: 20px 20px;
+	width: 100%;
+}
+
+.board th {
+	padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}

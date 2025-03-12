@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home.html</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	* { margin: 0; padding: 0; box-sizing: border-box; }
+	body { font-family: Arial, sans-serif; }
+	</style>
+	
+</head>
+
+
+<body>
+
+    <div class="header">
+        <div class="header_name">게시판 구현중</div>
+        <ul class="header_elements">
+            <li><a href="#">로그인</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
