@@ -10,10 +10,10 @@
 
 
 .board th {
-	padding: 12px;
+	padding: 10px;
     text-align: center;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .board th:nth-child(1),
