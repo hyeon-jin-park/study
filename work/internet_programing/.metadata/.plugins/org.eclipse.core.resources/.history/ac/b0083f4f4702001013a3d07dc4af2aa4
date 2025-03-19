@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home.html</title>
+	<link rel="stylesheet" href="layout.css">
+	<link rel="stylesheet" href="board.css">
+	<style>
+	* { margin: 0; padding: 0; box-sizing: border-box; }
+	body { font-family: Arial, sans-serif; }
+	</style>
+	
+</head>
+
+
+<body>
+
+    <div class="header">
+        <div class="header_name">게시판 구현중</div>
+        
+            
+        
+    </div>
+    <div class="sidebar">
+    	<ul class="sidebar">
+    		<li><a href="home.html">home</a></li>
+    		<li><a href="#">전체 글 보기</a></li>
+    		<li><a href="#">게시판 이름1</a></li>
+    		<li><a href="#">게시판 이름2</a></li>
+    		
+    	</ul>
+    </div>
+    <div class="content">
+    	<div class="board_title">
+    		<h1>Home</h1>
+    		<a href="#">로그인</a>
+    	</div>    			
+    	<hr>
+    	<div class="board">
+    		<table class="header_elements">
+    			<tr style ="background-color: silver">
+    				<th>번호</th>
+    				<th>이름</th>
+    				<th>글수</th>
+    				<th>작성일</th>
+    			</tr>
+    		</table>
+    	</div>
+    </div>
+    
+    <div class="footer">
+    	<h1></h1>
+    </div>
+
+</body>
+</html>

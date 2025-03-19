@@ -18,7 +18,7 @@
         .sidebar {
         	margin-top: 30px;
     		width: 200px;
-    		background-color: silver;
+    		background-color: lightgray;
     		color: black;
     		padding: 20px;
     		position: fixed;
@@ -51,12 +51,15 @@
 
 
 		.content {
-			margin-top: 40px;
+			margin-top: 60px;
 			position: fixed;
 			z-index: 999;
-    		margin-left: 200px; 
+    		margin-left: 300px; 
     		padding: 20px;
     		padding-top: 0px;
+    		align-items: center;
+    		min-height: 300px;
+    		overflow:auto;
 		}
 		.board_title{
 			margin:0px;
@@ -84,10 +87,29 @@
 			font-size: 25px;
 			
 		}
+		.input_form{
+			padding:20px;
+		}
+		.input_form table{
+			white-space: nowrap;
+			margin:10px;
+		}
+		.input_form th,td{
+			padding-bottom:10px;
+			border-bottom: 1px solid black;
+		}
+		.input_form button{
+			border:none;
+			background-color:white;
+			cursor: pointer;
+		}
+		.input_form input{
+			width:100%;
+		}
 		
 		
 		.footer {
-    		background-color: gray;
+    		background-color: silver;
     		color: white;
     		text-align: center;
     		height: 30px;
@@ -96,6 +118,5 @@
     		bottom: 0; 
     		width: 100%;
     		z-index: 1000;
-    		margin-top: -20;
     		box-sizing: border-box;
 		}

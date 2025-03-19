@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="#" method="get">
+	<table border="1" style = "border-collapse:collapse">
+		<tr>
+			<th>
+			id
+			</th>
+			<td>
+			<input type = "text" name = "id">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			성명
+			</td>
+			<td>
+			<input type = "text" name = "name">
+			</td>			
+		</tr>
+		<tr>
+			<td>
+			전자우편
+			</td>
+			<td>
+			<input type = "text">
+			</td>			
+		</tr>
+		<tr>
+			<td>
+			암호
+			</td>
+			<td>
+			<input type = "password">
+			</td>			
+		</tr>
+		<tr>
+			<td>
+			성별
+			</td>
+			<td>
+			<input type = "radio">
+			</td>			
+		</tr>
+		<tr>
+			<td>
+			직업
+			</td>
+			<td>
+			<input type = "text">
+			</td>			
+		</tr>
+		
+
+	
+	</table>
+
+	
+</form>
+</body>
+</html>

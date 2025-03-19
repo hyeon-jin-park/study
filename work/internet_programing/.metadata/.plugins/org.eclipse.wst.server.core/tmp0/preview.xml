@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <server port="8080">
-  <module context="T01" name="T01" path="C:/Users/hhjjp/Desktop/internet_programing/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/T01" type="static"/>
-  <module name="T02" path="C:/Users/hhjjp/Desktop/internet_programing/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/T02" type="static"/>
+  <module context="T03" name="T03" path="C:/Users/hhjjp/Desktop/internet_programing/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/T03" type="static"/>
   <module context="Test_final" name="Test_final" path="C:/Users/hhjjp/Desktop/internet_programing/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Test_final" type="static"/>
 </server>

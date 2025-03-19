@@ -1,0 +1,38 @@
+
+3월 16, 2025 18:14:05.20 NEW SESSION
+3월 16, 2025 18:14:05.20 [3128:4744:0316/181405.198:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:14:05.30 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 16, 2025 18:14:34.33 [3128:4744:0316/181434.329:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:15:30.66 [3128:4744:0316/181530.661:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:17:05.17 [3128:4744:0316/181705.178:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:20:51.28 [3128:4744:0316/182051.283:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:22:16.13 [17980:27504:0316/182216.136:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:22:18.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 16, 2025 18:24:01.25 [4620:23632:0316/182401.250:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:24:01.38 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 16, 2025 18:24:29.85 [4620:23632:0316/182429.856:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:25:09.93 [7328:7784:0316/182509.929:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:25:10.27 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 16, 2025 18:25:30.27 [7328:7784:0316/182530.274:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:26:17.84 [25164:19700:0316/182617.841:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:26:17.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 16, 2025 18:26:35.61 [10448:3560:0316/182635.610:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 16, 2025 18:26:36.75 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 18, 2025 15:58:52.19 NEW SESSION
+3월 18, 2025 15:58:52.24 [11084:5776:0318/155852.184:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+3월 18, 2025 15:58:52.24 [11084:5776:0318/155852.185:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+3월 18, 2025 15:58:54.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+3월 19, 2025 17:16:04.17 NEW SESSION
+3월 19, 2025 17:16:04.25 [29352:11280:0319/171604.170:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 19, 2025 17:16:07.68 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 19, 2025 17:16:31.94 [29352:11280:0319/171631.947:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 19, 2025 17:17:15.41 [29352:11280:0319/171715.417:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 19, 2025 17:18:53.52 [29352:11280:0319/171853.527:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 19, 2025 17:22:21.57 [29352:11280:0319/172221.574:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 19, 2025 17:23:08.78 [29352:26324:0319/172308.779:ERROR:new_tab_page_handler.cc(1341)] NewTabPage loaded into a non-browser-tab context
+3월 19, 2025 17:28:29.29 [29352:11280:0319/172829.291:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+3월 19, 2025 18:13:28.28 [29352:11280:0319/181328.284:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+3월 19, 2025 18:36:31.36 [29352:11280:0319/183631.362:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+3월 19, 2025 18:36:31.92 [29352:11280:0319/183631.923:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105

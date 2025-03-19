@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.myFont{
+	font-family: "맑은 고딕", "바탕체", cursive;
+}
+#myID{
+	font-family:"궁서체","san-serif";
+	color: red;
+	font-weight:bold;
+	font-size: 50px; 
+}

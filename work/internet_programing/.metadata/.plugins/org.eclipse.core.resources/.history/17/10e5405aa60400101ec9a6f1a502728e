@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home.html</title>
+	<link rel="stylesheet" href="layout.css">
+	<link rel="stylesheet" href="board.css">
+	<style>
+	* { margin: 0; padding: 0; box-sizing: border-box; }
+	body { font-family: Arial, sans-serif; }
+	
+	#login_button{
+		text-align:center;
+		font-weight:bold;
+		
+	}
+	</style>
+	
+</head>
+
+
+<body>
+
+    <div class="header">
+        <div class="header_name">게시판 구현중</div>
+        
+            
+        
+    </div>
+    <div class="sidebar">
+    	<ul class="sidebar">
+    		<li><a href="home.html">home</a></li>
+    		<li><a href="#">전체 글 보기</a></li>
+    		<li><a href="#">게시판 이름1</a></li>
+    		<li><a href="#">게시판 이름2</a></li>
+    		
+    	</ul>
+    </div>
+    
+    <div class="content">
+    	<h1>글쓰기</h1>
+    	<form>
+    	제목: <input type="text" name="제목">
+    	글쓴이: <input type="text" name="글쓴이">
+    	내용: <textarea cols="30" rows="40" name="내용"></textarea>
+    	비밀번호: <input type="password" name="비밀번호">
+    	중요여부: <input type="checkbox" name="중요도">
+    	이미지 첨부: <input type="file">
+    	
+    	</form>
+    </div>
+    
+    <div class="footer">
+    	<h1></h1>
+    </div>
+
+</body>
+</html>

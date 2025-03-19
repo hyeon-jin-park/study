@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="#" method="get">
+	<table border="1" style = "border-collapse:collapse">
+		<tr>
+			<th>
+			id
+			</th>
+			<td>
+			<input type = "text" name = "id">
+			</td>
+		</tr>
+		<tr>
+			<th>
+			성명
+			</th>
+			<td>
+			<input type = "text" name = "name">
+			</td>			
+		</tr>
+		<tr>
+			<th>
+			전자우편
+			</th>
+			<td>
+			<input type = "email" name ="email">
+			</td>			
+		</tr>
+		<tr>
+			<th>
+			암호
+			</th>
+			<td>
+			<input type = "password" name ="pwd" size="8" maxlength="10">
+			</td>			
+		</tr>
+		<tr>
+			<th>
+			성별
+			</th>
+			<td>
+			<input type = "radio" name="gender" value = "male">남
+			<input type = "radio" name="gender" value="female">여
+			</td>			
+		</tr>
+		<tr>
+			<th>
+			직업
+			</th>
+			<td>
+			<select name = "job">
+			<option value="computer">컴퓨터기사</option>
+			<option value="gamer">프로게이머</option>
+			<option value="cooker">요리사</option>
+			
+			</td>			
+		</tr>
+		<tr>
+			<th>
+			직업
+			</th>
+			<td>
+			<input type = "text">
+			</td>			
+		</tr>
+		
+
+	
+	</table>
+
+	
+</form>
+</body>
+</html>
