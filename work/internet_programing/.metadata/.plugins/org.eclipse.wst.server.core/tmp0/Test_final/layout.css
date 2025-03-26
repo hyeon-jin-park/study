@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 body{
-	min-height:10000px;
+	max-height:1000px;
 }
 header {
-            background-color: gray;
+            background-color: #f2f2f2;
             color: black;
             padding: 5px 10px;
             display: fixed;
@@ -12,12 +12,11 @@ header {
         }
 
 nav {
-        	display:table-cell;
+        	display:inline-block;
     		background-color: lightgray;
+    		width:150px;
     		color: black;
-    		padding: 20px;
-    		position: fixed;
-    		height: 100vh;
+    		height: 1000px;
 		}
 
 nav ul {
@@ -30,7 +29,7 @@ nav ul li {
 
 nav a {
     		text-decoration: none;
-    		color: white; 
+    		color: black; 
    		    font-weight: bold;
    		 	display: block;
     		padding: 10px;
@@ -39,18 +38,67 @@ nav a {
 
 nav a:hover {
     		background-color: #555; 
+    		color: white;
 		}
 
 
-.content {
-			margin-top: 60px;
-			z-index: 999;
-    		margin-left: 300px; 
-    		padding: 20px;
-    		padding-top: 0px;
-    		align-items: center;
-    		overflow:auto;
+section {
+			display:inline-block;
+			position:absolute;
+			width:80%;
+			margin:20px;
+			
 		}
+		
+		
+.board {
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	padding: 20px 20px;
+	margin: 0px 150px;
+	margin-bottom:0px;
+	width: 80%;
+}
+
+
+.board th,td {
+  padding: 10px;
+}
+
+.board th {
+    text-align: center;
+    border-collapse: collapse;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.board th:nth-child(1),
+.board td:nth-child(1)
+.board_contents th:nth-child(1),
+.board_contents td:nth-child(1){
+	width: 100px;
+}
+.board th:nth-child(2),
+.board td:nth-child(2)
+.board_contents th:nth-child(2),
+.board_contents td:nth-child(2){
+	width: 600px;
+}
+.board th:nth-child(3),
+.board td:nth-child(3)
+.board_contents th:nth-child(3),
+.board_contents td:nth-child(3){
+	width: 100px;
+}
+.board th:nth-child(4),
+.board td:nth-child(4)
+.board_contents th:nth-child(4),
+.board_contents td:nth-child(4){
+	width: 200px;
+}
+
+
 .board_title{
 			margin:0px;
 			padding: 0px;
@@ -73,46 +121,66 @@ nav a:hover {
     		border-radius: 5px;
 		}
 		
-.board_title h1{
-			font-size: 25px;
-			
-		}
+.board_contents{
+	text-align:center;
+	background-color: white;
+	color: black;
+	padding: 20px 20px;
+	margin: 0px 150px;
+	padding-top:0px;
+	padding-bottom:0px;
+	width: 80%;
+}
+.board_contents table{
+	border-collapse: collapse;
+	border-bottom:1px solid lightgray;
+	padding-bottom:10px;
+	font-size:13px;
+}
+.board_contents tr:hover{
+	border-style:inset;
+}
+.board_contents a:hover , a:link{
+	cursor: pointer;
+	text-decoration:none;
+	color:black;
+}
+
+		
 .input_form{
 			padding:20px 20px;
 			width:100%;
-			margin-left:100px;
-    		margin-bottom:10000px;
+			margin-left:150px;
+    		margin-bottom:100px;
 		}
 .input_form table{
-			white-space: nowrap;
-			padding-right:300px;
 			margin:10px;
+			border-collapse:collapse;
+			
 		}
-.input_form th,td{
-			padding-bottom:10px;
-			border-bottom: 1px solid black;
-		}
+.input_form th, td{
+	border-bottom:1px solid black;
+}
+
+
 .input_form button{
 			border:none;
 			background-color:white;
 			cursor: pointer;
 		}
 .input_form input{
-			width:80%;
+			width:100%;
 		}
 		
 		
-.footer {
+footer {
     		background-color: silver;
     		color: white;
     		text-align: center;
     		height: 30px;
     		padding: 5px 0;
-    		position: fixed;
     		bottom: 0; 
     		width: 100%;
-    		z-index: 1000;
-    		box-sizing: border-box;
 		}
 
         

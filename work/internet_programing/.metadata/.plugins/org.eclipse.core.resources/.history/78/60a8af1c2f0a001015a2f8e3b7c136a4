@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body{
+	min-height:10000px;
+}
+header {
+            background-color: #f2f2f2;
+            color: black;
+            padding: 5px 10px;
+            display: fixed;
+            width: 100%;
+        }
+
+nav {
+        	display:inline-block;
+    		background-color: lightgray;
+    		width:150px;
+    		color: black;
+    		height: 100vh;
+		}
+
+nav ul {
+    		list-style: none;
+    		padding: 0;
+		}
+nav ul li {
+   		 margin: 15px 0;
+		}
+
+nav a {
+    		text-decoration: none;
+    		color: white; 
+   		    font-weight: bold;
+   		 	display: block;
+    		padding: 10px;
+    		border-radius: 5px;
+		}
+
+nav a:hover {
+    		background-color: #555; 
+		}
+
+
+section {
+			display:inline-block;
+			position:absolute;
+			width:80%;
+			margin:20px;
+			
+		}
+		
+		
+.board {
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	padding: 20px 20px;
+	margin: 0px 150px;
+	width: 80%;
+}
+
+.board th,td {
+  padding: 10px;
+}
+
+.board th {
+    text-align: center;
+    border-collapse: collapse;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.board td{
+	font-size:10px;
+	border:none;
+	border-collapse: collapse;
+	border-bottom: 1px solid black;
+	
+}
+
+.board th:nth-child(1),
+.board td:nth-child(1){
+	width: 100px;
+}
+.board th:nth-child(2),
+.board td:nth-child(2){
+	width: 600px;
+}
+.board th:nth-child(3),
+.board td:nth-child(3){
+	width: 100px;
+}
+.board th:nth-child(4),
+.board td:nth-child(4){
+	width: 200px;
+}
+
+
+.board_title{
+			margin:0px;
+			padding: 0px;
+			display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+		}
+.board_title ul{
+			list-style: none;
+			padding:0;
+		}
+		
+.board_title a {
+    		text-decoration: none;
+    		color: black; 
+   		    font-weight: bold;
+   		 	display: block;
+    		padding: 10px;
+    		border-radius: 5px;
+		}
+		
+.input_form{
+			padding:20px 20px;
+			width:100%;
+			margin-left:150px;
+    		margin-bottom:100px;
+		}
+.input_form table{
+			white-space: nowrap;
+			margin:10px;
+			border-collapse:collapse;
+		}
+.input_form th,td{
+			border-bottom: 1px solid black;
+		}
+.input_form button{
+			border:none;
+			background-color:white;
+			cursor: pointer;
+		}
+.input_form input{
+			width:100%;
+		}
+		
+		
+footer {
+    		background-color: silver;
+    		color: white;
+    		text-align: center;
+    		height: 30px;
+    		padding: 5px 0;
+    		bottom: 0; 
+    		width: 100%;
+		}
+
+        
+        

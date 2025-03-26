@@ -11,6 +11,26 @@
 4. 안쪽 여백은 10px로, 위쪽 바깥 여백은 30px로 선언하시오.
 5. 선언한 animated_div keyframe이 5초동안 2회 수행 될 수 있도록 선언하시오.
 */
+@keyframes animated_div{
+	0%{transform:rotate(0deg); left:0px}
+	25%{transform:rotate(20deg); left:0px}
+	50%{transform:rotate(0deg);left:500px}
+	55%{transform:rotate(0deg);left:500px;background-color:#66ccff}
+	70%{transform:rotate(0deg);left:500px;background-color:#0099e6}
+	100%{transform:rotate(360deg);left:0px;}
+	
+}
+#animated_div{
+	position:relative;
+	width:80px;height:50px;
+	background-color:#00cc99;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	padding:10px; margin:30px;
+	border-radius:5px;
+	animation:animated_div 5s 3;
+}
 
 
 

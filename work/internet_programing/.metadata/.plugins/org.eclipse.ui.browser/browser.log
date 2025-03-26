@@ -36,3 +36,6 @@
 3월 19, 2025 18:13:28.28 [29352:11280:0319/181328.284:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
 3월 19, 2025 18:36:31.36 [29352:11280:0319/183631.362:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
 3월 19, 2025 18:36:31.92 [29352:11280:0319/183631.923:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+3월 26, 2025 18:00:03.89 NEW SESSION
+3월 26, 2025 18:00:03.92 [32556:31020:0326/180003.893:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
