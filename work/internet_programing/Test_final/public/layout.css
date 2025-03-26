@@ -1,42 +1,34 @@
 @charset "UTF-8";
 
-.header {
+body{
+	min-height:10000px;
+}
+header {
             background-color: gray;
             color: black;
             padding: 5px 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            display: fixed;
             width: 100%;
-            position: fixed;
-            z-index: 1000;
-    		border-collapse: collapse;
-    		table-layout: fixed;
         }
 
-        
-        .sidebar {
-        	margin-top: 30px;
-    		width: 200px;
+nav {
+        	display:table-cell;
     		background-color: lightgray;
     		color: black;
     		padding: 20px;
     		position: fixed;
     		height: 100vh;
-    		top: 0;
-    		left: 0;
 		}
 
-		.sidebar ul {
+nav ul {
     		list-style: none;
     		padding: 0;
 		}
-
-		.sidebar ul li {
+nav ul li {
    		 margin: 15px 0;
 		}
 
-		.sidebar a {
+nav a {
     		text-decoration: none;
     		color: white; 
    		    font-weight: bold;
@@ -45,23 +37,21 @@
     		border-radius: 5px;
 		}
 
-		.sidebar a:hover {
+nav a:hover {
     		background-color: #555; 
 		}
 
 
-		.content {
+.content {
 			margin-top: 60px;
-			position: fixed;
 			z-index: 999;
     		margin-left: 300px; 
     		padding: 20px;
     		padding-top: 0px;
     		align-items: center;
-    		min-height: 300px;
     		overflow:auto;
 		}
-		.board_title{
+.board_title{
 			margin:0px;
 			padding: 0px;
 			display: flex;
@@ -69,12 +59,12 @@
             align-items: center;
             width: 100%;
 		}
-		.board_title ul{
+.board_title ul{
 			list-style: none;
 			padding:0;
 		}
 		
-		.board_title a {
+.board_title a {
     		text-decoration: none;
     		color: black; 
    		    font-weight: bold;
@@ -83,32 +73,36 @@
     		border-radius: 5px;
 		}
 		
-		.board_title h1{
+.board_title h1{
 			font-size: 25px;
 			
 		}
-		.input_form{
-			padding:20px;
+.input_form{
+			padding:20px 20px;
+			width:100%;
+			margin-left:100px;
+    		margin-bottom:10000px;
 		}
-		.input_form table{
+.input_form table{
 			white-space: nowrap;
+			padding-right:300px;
 			margin:10px;
 		}
-		.input_form th,td{
+.input_form th,td{
 			padding-bottom:10px;
 			border-bottom: 1px solid black;
 		}
-		.input_form button{
+.input_form button{
 			border:none;
 			background-color:white;
 			cursor: pointer;
 		}
-		.input_form input{
-			width:100%;
+.input_form input{
+			width:80%;
 		}
 		
 		
-		.footer {
+.footer {
     		background-color: silver;
     		color: white;
     		text-align: center;
@@ -120,3 +114,6 @@
     		z-index: 1000;
     		box-sizing: border-box;
 		}
+
+        
+        

@@ -7,10 +7,11 @@
 	width: 100%;
 }
 
-
+.board th,td {
+  padding: 10px;
+}
 
 .board th {
-	padding: 10px;
     text-align: center;
     vertical-align: middle;
     font-size: 10px;

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.board {
+	background-color: white;
+	color: black;
+	padding: 20px 20px;
+	width: 100%;
+}
+
+.board td {
+  padding: 10px;
+}
+
+.board th {
+	padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.board th:nth-child(1),
+.board td:nth-child(1){
+	width: 100px;
+}
+.board th:nth-child(2),
+.board td:nth-child(2){
+	width: 600px;
+}
+.board th:nth-child(3),
+.board td:nth-child(3){
+	width: 100px;
+}
+.board th:nth-child(4),
+.board td:nth-child(4){
+	width: 200px;
+}
+
