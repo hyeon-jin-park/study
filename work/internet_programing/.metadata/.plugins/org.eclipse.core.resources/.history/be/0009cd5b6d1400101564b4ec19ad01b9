@@ -1,0 +1,60 @@
+<!-- 
+제시된 화면과 같은 계산기를 구성하고, 각 버튼을 클릭하면 display text 입력 상자에 입력된 수식을 출력하시오.
+"C"를 누르면, 입력했던 수식을 초기화 시키고,
+"="를 투르면, 입력했던 수식의 계산 결과를 출력하시오.
+  -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>계산기</title>
+<style>
+input[type ="button"]{
+	width:50px; height:50px;
+	font-size:large;
+}
+
+</style>
+
+
+
+<script>
+
+var exp ="";
+function add(ch){
+	exp += ch.value;
+	document.getElementById("display").value = exp;
+}
+</script>
+</head>
+
+
+
+<body>
+<p>display: <input type = "text" size = "30" readonly id ="result"></input></p>
+
+
+<input type ="button" value="7" onclick="add(this)">
+<input type ="button" value="8" onclick="add(this)">
+<input type ="button" value="9" onclick="add(this)">
+<input type ="button" value="/" onclick="add(this)"> <br>
+<input type ="button" value="4" onclick="add(this)">
+<input type ="button" value="5" onclick="add(this)">
+<input type ="button" value="6" onclick="add(this)">
+<input type ="button" value="*" onclick="add(this)"> <br>
+<input type ="button" value="1" onclick="add(this)">
+<input type ="button" value="2" onclick="add(this)">
+<input type ="button" value="3" onclick="add(this)">
+<input type ="button" value="-" onclick="add(this)"> <br>
+<input type ="button" value="0" onclick="add(this)">
+<input type ="button" value="+" onclick="add(this)">
+<input type ="button" value="C" onclick="">
+<input type ="button" value="=" onclick=""> <br>
+
+
+
+
+
+
+</body>
+</html>
