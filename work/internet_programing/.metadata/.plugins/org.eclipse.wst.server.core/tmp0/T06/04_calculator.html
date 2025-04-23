@@ -27,8 +27,13 @@ function add(ch){
 }
 
 function compute(){
-	document.getElementById("display").value = eval(exp);
-	
+	try{
+		document.getElementById("display").value = eval(exp);
+	}catch(err){
+		alert("정상적인 수식이 아닙니다.\n"+"오류 이름: "+err.name+"\n오류 메시지: " + err.message);
+		exp = "";
+		document.getElementById("display").value = "";
+	}
 }
 
 function clearDisplay(){

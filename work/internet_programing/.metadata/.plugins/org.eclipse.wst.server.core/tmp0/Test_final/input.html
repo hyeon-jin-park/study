@@ -12,11 +12,40 @@
 	
 	#login_button{
 		text-align:center;
-		font-weight:bold;
-		
+		font-weight:bold;		
 	}
 	</style>
 	
+	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("do").addEventListener("click", function (event) {
+            event.preventDefault();	
+		
+		var obj = document.getElementById("과제");
+	
+		str = "메모 번호: 1\n";
+		for (var i = 0; i < obj.elements.length; i++) {
+	    	var element = obj.elements[i];
+	    	if (element.type !== "submit" && element.type !== "button") {
+            	str += element.name + ": " + element.value + "\n";
+        	}
+		}
+		var today = new Date();
+		str += "작성일: "+ today.getFullYear() +"-"+(today.getMonth()+1)+"-"+today.getDate()+"\n";
+		alert(str);
+        });
+        
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	</script>
+		
 </head>
 
 
@@ -49,19 +78,19 @@
     	<hr> 			
     	<hr>
     	<div  class="input_form">
-    	    <form method="get">
+    	    <form method="get" id="과제">
     		<table>
     			<tr>
     				<th>제목: </th>
     				<td><input type="text" name="제목"></td>
-    			</tr>
+    			</tr> 
     			<tr>
     				<th>작성자: </th>
     				<td><input type="text" name="작성자"></td>
     			</tr>
     			<tr>
     				<th>내용: </th>
-    				<td><textarea rows="15" cols="60"></textarea></td>
+    				<td><textarea rows="15" cols="60" name="내용"></textarea></td>
     			</tr>
     			<tr>
     				<th>비밀번호: </th>
@@ -77,11 +106,11 @@
     			</tr>
     			<tr>
     				<th>그림첨부: </th>
-    				<td><input type="image" name="그림"></td>
+    				<td><input type="file" name="그림" accept="image/*"></td>
     			</tr>
     			<tr>
     				<td colspan="2" style="border-bottom:none;text-align: right;padding-top:10px;">
-    				<button type="submit">등록</button>/
+    				<button type="button" id="do">등록</button>/
     				<a href="board.html" style="font-size:13.5px">취소</a>
     				</td>
     			</tr>
