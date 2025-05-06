@@ -136,7 +136,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\hhjjp\Desktop\internet_programing\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\hhjjp\Desktop\internet_programing\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\T08" path="/T08" reloadable="true" source="org.eclipse.jst.jee.server:T08"/><Context docBase="C:\Users\hhjjp\Desktop\internet_programing\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\work1" path="/work1" reloadable="true" source="org.eclipse.jst.jee.server:work1"/></Host>
+      <Context docBase="C:\Users\hhjjp\OneDrive\Desktop\study\work\internet_programing\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\hhjjp\OneDrive\Desktop\study\work\internet_programing\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\T08" path="/T08" reloadable="true" source="org.eclipse.jst.jee.server:T08"/><Context docBase="C:\Users\hhjjp\OneDrive\Desktop\study\work\internet_programing\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\work1" path="/work1" reloadable="true" source="org.eclipse.jst.jee.server:work1"/><Context docBase="C:\Users\hhjjp\OneDrive\Desktop\study\work\internet_programing\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\T09" path="/T09" reloadable="true" source="org.eclipse.jst.jee.server:T09"/></Host>
     </Engine>
   </Service>
 </Server>
